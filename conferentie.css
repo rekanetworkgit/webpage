@@ -10,6 +10,18 @@ body {
     color: 3C3C3C;
 }
 
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
 #main {
     width: 90%;
     margin: auto;
@@ -94,7 +106,7 @@ body {
     width: -webkit-calc(100% - var(--date-width) - 10px);
     width:    -moz-calc(100% - var(--date-width) - 10px);
     width:         calc(100% - var(--date-width) - 10px);
-    font-size: 22px;
+    font-size: 19px;
     padding-top: 0px
 }
 
@@ -114,7 +126,7 @@ body {
     display: inline-block;
     text-align: left;
     color: #777777;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 
@@ -174,12 +186,26 @@ th:first-child, td:first-child {
     width: 140px;
     height: 140px;
     margin: 10px;
+    border-radius: 25px;
 }
 
 .header {
     background-color: #3C3C3C;
-    background-image: url("rekawave.png");
+    background-image: url("./rekawave.png");
     background-repeat: repeat-x;
     height: 150px;
     display: block;
+}
+
+.returnbutton {
+    padding: 20px; 
+    background-color: #eee;
+    width: auto;
+    display: inline-block;
+}
+.returnbutton:hover {
+  background-color: #ccc;
+}
+.returnbutton a {
+    text-decoration: none !important;
 }
