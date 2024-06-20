@@ -2,9 +2,12 @@
   --date-width: 100px;
 }
 
+
+
 body {
     font-family: "calibri", sans-serif;
     margin: auto;
+    color: 3C3C3C;
 }
 
 #main {
@@ -171,4 +174,12 @@ th:first-child, td:first-child {
     width: 140px;
     height: 140px;
     margin: 10px;
+}
+
+.header {
+    background-color: #3C3C3C;
+    background-image: url("rekawave.png");
+    background-repeat: repeat-x;
+    height: 150px;
+    display: block;
 }
