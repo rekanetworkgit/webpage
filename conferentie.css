@@ -8,6 +8,7 @@ body {
     font-family: "calibri", sans-serif;
     margin: auto;
     color: 3C3C3C;
+    background-color: #F3F3F3;
 }
 
 h1 {
@@ -25,6 +26,8 @@ h3 {
 #main {
     width: 90%;
     margin: auto;
+    background-color: #FFFFFF;
+    padding: 30px;
 }
 
 .smallimg {
@@ -189,19 +192,30 @@ th:first-child, td:first-child {
     border-radius: 25px;
 }
 
-.header {
-    background-color: #3C3C3C;
-    background-image: url("./rekawave.png");
+.header-top {
+    background-color: #FFFFFF;
+    height: 120px;
+    width: 100%;
+}
+
+.header {    
+    background-image: url(./images/rekawave.png);
     background-repeat: repeat-x;
-    height: 150px;
-    display: block;
+    background-size: auto 100%;
+    height: 80px;
+    width: 100%;
+}
+
+.header-img {
+    height: 100%;
 }
 
 .returnbutton {
     padding: 20px; 
-    background-color: #eee;
+    background-color: #9E3039;
     width: auto;
     display: inline-block;
+    color: #FFFFFF;
 }
 .returnbutton:hover {
   background-color: #ccc;
