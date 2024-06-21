@@ -9,6 +9,7 @@ body {
     margin: auto;
     color: 3C3C3C;
     background-color: #F3F3F3;
+    font-weight: 100; 
 }
 
 h1 {
@@ -17,10 +18,14 @@ h1 {
 
 h2 {
     font-size: 28px;
+    background-color: #9E3039;
+    padding: 10px;
+    color: #f3f3f3;
 }
 
 h3 {
     font-size: 24px;
+
 }
 
 #main {
@@ -39,6 +44,16 @@ h3 {
     display: grid; 
     grid-template-columns: 1fr; 
     grid-gap: 20px; 
+}
+
+.speakerdivwrap-wide {
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-gap: 20px; 
+}
+
+.speakerdivwrap-wide img {
+    float: right;
 }
 
 .speakerdiv {
@@ -66,7 +81,7 @@ h3 {
 
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-  background-color: #eee;
+  background-color: #f3f3f3;
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -93,7 +108,7 @@ h3 {
 
 /* Style the collapsible content. Note: hidden by default */
 .collap_content {
-  padding: 0 18px;
+  padding: 0px 18px;
   background-color: white;
   max-height: 0;
   overflow: hidden;
@@ -188,7 +203,7 @@ th:first-child, td:first-child {
     float: left;
     width: 140px;
     height: 140px;
-    margin: 10px;
+    margin: 0px 10px 10px 10px;
     border-radius: 25px;
 }
 
@@ -227,4 +242,8 @@ th:first-child, td:first-child {
 }
 .returnbutton a {
     text-decoration: none !important;
+}
+
+.notabene {
+    font-weight: 700;
 }
