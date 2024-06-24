@@ -40,6 +40,13 @@ h3 {
     margin: 5px;
 }
 
+.logorij img {
+    width: 70%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .speakerdivwrap {
     display: grid; 
     grid-template-columns: 1fr; 
@@ -60,6 +67,16 @@ h3 {
     margin: 10px;
 }
 
+.logorij {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.logodiv {
+    width: 100%;
+    padding: 10px;
+}
+
 @media screen and (min-width: 800px) {
     #main {
         width: 750px;
@@ -73,6 +90,15 @@ h3 {
         display: grid; 
         grid-template-columns: 1fr 1fr; 
     }
+
+    .logorij {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .logorij img {
+        width: 100%;
+    }
 }
 
 .bigimg {
@@ -84,7 +110,7 @@ h3 {
   background-color: #f3f3f3;
   color: #444;
   cursor: pointer;
-  padding: 18px;
+  padding: 15px;
   width: 100%;
   border: none;
   text-align: left;
