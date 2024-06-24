@@ -226,6 +226,14 @@ th:first-child, td:first-child {
     margin-left: 20px;
 }
 
+@media screen and (max-width: 500px) {
+    .header-img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+
 .returnbutton {
     padding: 20px; 
     background-color: #3c3c3c;
