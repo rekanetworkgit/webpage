@@ -34,6 +34,11 @@ h3 {
     background-color: #FFFFFF;
     padding: 30px;
 }
+@media screen and (max-width: 600px) {
+    #main {
+        padding: 5%;
+    }
+}
 
 .smallimg {
     width: 100%;
